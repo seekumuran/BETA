@@ -1,4 +1,4 @@
-# Ray-Ban Audio Modification
+# BETA
 
 > A hardware project exploring how compact audio electronics could be added to eyewear. This README covers the design goals and open questions. Implementation details are marked `[TBD]` until confirmed.
 
