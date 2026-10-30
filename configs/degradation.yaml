@@ -1,0 +1,32 @@
+augmentation_probability: 0.5
+types:
+  motion_blur:
+    low: {length: [5, 9], angle: [0, 180]}
+    medium: {length: [11, 19], angle: [0, 180]}
+    high: {length: [21, 35], angle: [0, 180]}
+  sensor_noise:
+    low: {sigma: [0.02, 0.04]}
+    medium: {sigma: [0.05, 0.10]}
+    high: {sigma: [0.12, 0.20]}
+  jpeg:
+    low: {quality: [60, 80]}
+    medium: {quality: [25, 45]}
+    high: {quality: [5, 15]}
+  dead_pixels:
+    low: {fraction: [0.001, 0.003]}
+    medium: {fraction: [0.005, 0.01]}
+    high: {fraction: [0.02, 0.04]}
+  lens_obstruction:
+    low: {area: [0.05, 0.10], opacity: [0.3, 0.5]}
+    medium: {area: [0.15, 0.25], opacity: [0.5, 0.7]}
+    high: {area: [0.30, 0.45], opacity: [0.7, 0.9]}
+  random_occlusion:
+    low: {area: [0.05, 0.10]}
+    medium: {area: [0.15, 0.25]}
+    high: {area: [0.30, 0.40]}
+  frame_corruption:
+    low: {fraction: [0.02, 0.05]}
+    medium: {fraction: [0.08, 0.15]}
+    high: {fraction: [0.20, 0.30]}
+combined:
+  number_of_faults: [2, 3]

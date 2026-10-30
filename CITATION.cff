@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository release."
+title: "Wildlife Detection Under Camera Degradation"
+authors:
+  - family-names: Mandlik
+    given-names: Avnish
+  - family-names: Borkar
+    given-names: Anushka
+  - family-names: Chandrashekar
+    given-names: Kumaran
+  - family-names: Deshmukh
+    given-names: Om
+version: 0.1.0
+date-released: 2026-10-30

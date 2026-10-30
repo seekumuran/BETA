@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.DS_Store
+runs/
+datasets/
+data/
+weights/
+*.pt
+*.onnx
+*.engine
+*.mp4
+*.zip
